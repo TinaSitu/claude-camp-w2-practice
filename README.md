@@ -1,70 +1,66 @@
 # Claude Camp Week 2 — Python Exercises
 
-## Overview
-This repository contains 4 Python exercises completed as part of Claude Camp Week 2.
-Each exercise is written to a professional standard with clean code, detailed comments,
-input validation, and error handling.
+## About this project
+Four small Python programs built during Claude Camp Week 2. Each one solves
+a real everyday problem using only Python's built-in tools — no extra
+packages needed. The goal was to get comfortable writing clean, practical
+Python code that actually does something useful.
 
-All exercises use Python's standard library only — no external packages required.
+---
 
-## Weekly goal
-Build practical Python skills by completing real-world style mini-projects,
-each focusing on a core Python programming concept. Every exercise follows
-the same professional workflow:
+## What each program does
 
-- Code written and tested in VS Code
-- Version controlled with Git
-- Published to GitHub
-
-## How to run any exercise
-```bash
-# Clone the repository
-git clone https://github.com/TinaSitu/claude-camp-w2-practice.git
-
-# Navigate into the project folder
-cd claude-camp-w2-practice
-
-# Run any exercise directly
-python3 roster.py
-```
-
-## Requirements
-- Python 3.8 or higher
-- No external packages needed
-
-## Exercises
-
-### Exercise 1 — Supplier Roster Manager ✅
+### Exercise 1 — Supplier Roster Manager
 **File:** `roster.py`
 
-A command-line roster management system that stores supplier information
-using Python dictionaries. Users can add, search, delete, and list suppliers
-with full input validation.
-
-**Key concepts:**
-- Python dictionaries (nested key-value storage)
-- Functions and modular code structure
-- Input validation with while loops
-- Email format validation using regex
-- Date validation using the datetime module
-- Duplicate detection with warning messages
-- Error handling with try/except
+Imagine you need to keep track of your business suppliers — their names,
+email addresses, and when they joined. This program acts like a simple
+digital contacts book for suppliers. You can add new suppliers, look one
+up by name, or remove one you no longer work with. It warns you if you
+accidentally enter the same name or email twice, and it will not let you
+save a badly formatted email address or an invalid date.
 
 ---
 
-### Exercise 2 — Coming soon
-**File:** `exercise2.py`
+### Exercise 2 — Word Frequency Counter
+**File:** `word_frequency.py`
+
+Ever wonder which words appear most often in a piece of writing? Paste any
+text into this program and it will tell you exactly how many times each word
+appears, ranked from most frequent to least. It ignores capitalisation so
+"The" and "the" count as the same word, and it strips out punctuation so
+only real words are counted. A visual bar next to each word makes it easy
+to see the results at a glance.
 
 ---
 
-### Exercise 3 — Coming soon
-**File:** `exercise3.py`
+### Exercise 3 — Todo List Manager
+**File:** `todo_list.py`
+
+A simple but practical todo list you run from the terminal. Add tasks,
+mark them as done, delete ones you no longer need, and view everything
+at once. The clever part is that your tasks are saved to a file on your
+computer, so even after you close the program and come back later, all
+your tasks are still there waiting for you.
 
 ---
 
 ### Exercise 4 — Coming soon
-**File:** `exercise4.py`
+**File:** `coming_soon.py`
 
 ---
 
-## Project structure
+## How to run
+
+Make sure you have Python 3.8 or higher installed, then run any program
+directly from your terminal:
+
+```bash
+python3 roster.py
+python3 word_frequency.py
+python3 todo_list.py
+```
+
+## Author
+Tina Situ
+GitHub: https://github.com/TinaSitu
