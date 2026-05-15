@@ -1,66 +1,52 @@
 # Claude Camp Week 2 — Python Exercises
 
-## About this project
-Four small Python programs built during Claude Camp Week 2. Each one solves
-a real everyday problem using only Python's built-in tools — no extra
-packages needed. The goal was to get comfortable writing clean, practical
-Python code that actually does something useful.
+Four small Python programs that solve everyday problems.
+Each one runs in the terminal and handles bad input without crashing.
 
 ---
 
-## What each program does
+## Exercise 1 — Supplier Roster Manager
+**Run:** `python3 roster.py`
 
-### Exercise 1 — Supplier Roster Manager
-**File:** `roster.py`
-
-Imagine you need to keep track of your business suppliers — their names,
-email addresses, and when they joined. This program acts like a simple
-digital contacts book for suppliers. You can add new suppliers, look one
-up by name, or remove one you no longer work with. It warns you if you
-accidentally enter the same name or email twice, and it will not let you
-save a badly formatted email address or an invalid date.
+Keeps track of your suppliers — name, email, and join date.
+You can add a new supplier, search by name, or delete one.
+It warns you if a name or email is already in the list,
+and rejects badly formatted emails and invalid dates.
 
 ---
 
-### Exercise 2 — Word Frequency Counter
-**File:** `word_frequency.py`
+## Exercise 2 — Word Frequency Counter
+**Run:** `python3 word_frequency.py`
 
-Ever wonder which words appear most often in a piece of writing? Paste any
-text into this program and it will tell you exactly how many times each word
-appears, ranked from most frequent to least. It ignores capitalisation so
-"The" and "the" count as the same word, and it strips out punctuation so
-only real words are counted. A visual bar next to each word makes it easy
-to see the results at a glance.
+Paste any text and it counts how many times each word appears,
+sorted from most to least frequent. Ignores capitalisation and
+punctuation. Shows a visual bar next to each word so you can
+see the results at a glance.
 
 ---
 
-### Exercise 3 — Todo List Manager
-**File:** `todo_list.py`
+## Exercise 3 — Todo List Manager
+**Run:** `python3 todo_list.py`
 
-A simple but practical todo list you run from the terminal. Add tasks,
-mark them as done, delete ones you no longer need, and view everything
-at once. The clever part is that your tasks are saved to a file on your
-computer, so even after you close the program and come back later, all
-your tasks are still there waiting for you.
-
----
-
-### Exercise 4 — Coming soon
-**File:** `coming_soon.py`
+A todo list that remembers your tasks even after you close it.
+Add tasks, mark them done, delete them, or view everything at once.
+Tasks are saved to a file on your computer so nothing is lost
+between sessions.
 
 ---
 
-## How to run
+## Exercise 4 — Safe Calculator
+**Run:** `python3 calculator.py`
 
-Make sure you have Python 3.8 or higher installed, then run any program
-directly from your terminal:
+A simple calculator that supports +, -, *, and /.
+Will not crash if you divide by zero, type a letter instead
+of a number, or enter an invalid operator.
+Type `quit` at any point to exit cleanly.
 
-```bash
-python3 roster.py
-python3 word_frequency.py
-python3 todo_list.py
-```
+---
+
+## Requirements
+Python 3.8 or higher. No extra packages needed.
 
 ## Author
-Tina Situ
-GitHub: https://github.com/TinaSitu
+Tina Situ — https://github.com/TinaSitu
